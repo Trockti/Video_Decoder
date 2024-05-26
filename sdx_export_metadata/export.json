@@ -1,0 +1,49 @@
+{
+  "version": "2022.1",
+  "applications": [],
+  "platforms": [
+    {
+      "name": "lab_prefab_wrapper"
+    },
+    {
+      "name": "new_platform"
+    }
+  ],
+  "systems": [
+    {
+      "name": "AssignmentECE423_system",
+      "platform": "C:/Users/jmadridh/workspace/new_platform/export/new_platform/new_platform.xpfm",
+      "sysConfig": "new_platform",
+      "buildConfig": "Release",
+      "applications": [
+        {
+          "name": "AssignmentECE423",
+          "platform": "C:/Users/jmadridh/workspace/new_platform/export/new_platform/new_platform.xpfm",
+          "platformPath": "C:\\Users\\jmadridh\\workspace\\new_platform\\export\\new_platform",
+          "sysConfig": "new_platform",
+          "domain": "standalone_domain",
+          "system": "AssignmentECE423_system"
+        }
+      ],
+      "platformPath": "C:\\Users\\jmadridh\\workspace\\new_platform\\export\\new_platform"
+    },
+    {
+      "name": "cpu1_system",
+      "platform": "C:/Users/jmadridh/workspace/new_platform/export/new_platform/new_platform.xpfm",
+      "sysConfig": "new_platform",
+      "buildConfig": "Release",
+      "applications": [
+        {
+          "name": "cpu1",
+          "platform": "C:/Users/jmadridh/workspace/new_platform/export/new_platform/new_platform.xpfm",
+          "platformPath": "C:\\Users\\jmadridh\\workspace\\new_platform\\export\\new_platform",
+          "sysConfig": "new_platform",
+          "domain": "standalone_ps7_cortexa9_1",
+          "system": "cpu1_system"
+        }
+      ],
+      "platformPath": "C:\\Users\\jmadridh\\workspace\\new_platform\\export\\new_platform"
+    }
+  ],
+  "others": []
+}
